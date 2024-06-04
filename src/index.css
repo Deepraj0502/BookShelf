@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: -apple-system;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* @font-face {
+  font-family: "Poppins";
+  src: url("./fonts/Poppins-Bold.ttf");
+  font-display: swap
+}
+@font-face {
+  font-family: "poppin-medium";
+  src: url("./fonts/Poppins-Medium.ttf");
+  font-display: swap
+}
+@font-face {
+  font-family: 'Lato', sans-serif;;
+  src: url("./fonts/Poppins-Regular.ttf");
+  font-display: swap
+} */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #fff;
+  border: 3px solid transparent;
+  border-radius: 6px;
+  background-clip: content-box;
+}
+
+.css-yuzg60-MuiButtonBase-root-MuiPaginationItem-root,
+.css-g2z002-MuiSvgIcon-root-MuiPaginationItem-icon,
+.css-1v2lvtn-MuiPaginationItem-root,
+.css-1xr9krm {
+  fill: white !important;
+  color: white !important;
+}
+
+.css-yuzg60-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+  background-color: rgb(120 120 120 / 50%) !important;
+}

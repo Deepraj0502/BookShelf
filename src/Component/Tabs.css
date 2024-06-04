@@ -1,0 +1,114 @@
+body {
+  background-color: #151515;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.card-tab-outer-outer {
+  width: 90%;
+  margin: auto;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  gap: 60px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.25rem;
+  background-color: rgba(17, 24, 39, 1);
+  padding: 1.5rem;
+  width: 250px;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 1.15rem;
+  line-height: 2rem;
+  font-weight: 700;
+  color: gray;
+  text-align: left;
+}
+
+.price {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #fff;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 100px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* number of lines to show */
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.desc {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.625;
+  color: rgba(156, 163, 175, 1);
+  text-align: left;
+}
+
+.lists {
+  margin-bottom: 1.5rem;
+  flex: 1 1 0%;
+  color: rgba(156, 163, 175, 1);
+}
+
+.lists .list {
+  margin-bottom: 0.5rem;
+  display: flex;
+  margin-left: 0.5rem;
+}
+
+.lists .list svg {
+  height: 1.5rem;
+  width: 1.5rem;
+  flex-shrink: 0;
+  margin-right: 0.5rem;
+  color: rgba(167, 139, 250, 1);
+}
+
+.action {
+  border: none;
+  outline: none;
+  display: inline-block;
+  border-radius: 0.25rem;
+  background-color: rgba(167, 139, 250, 1);
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: rgba(17, 24, 39, 1);
+  margin-top: 20px;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+.action:hover {
+  transform: scale(1.05);
+}
+@media (max-width: 600px) {
+  .card-tab-outer-outer {
+    margin-top: 300px;
+  }
+  .card {
+    height: max-content !important;
+  }
+}
