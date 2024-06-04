@@ -1,5 +1,3 @@
-# Front-End Intern Assessment
-
 <h1>Local Project Setup Instructions</h1><br>
 <ol>
 <li>git clone <a href="https://github.com/Deepraj0502/BookShelf.git">https://github.com/Deepraj0502/BookShelf.git</a></li>
