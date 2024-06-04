@@ -7,6 +7,15 @@
   /* justify-content: space-between; */
   gap: 60px;
 }
+.shelf-outer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.shelf-text {
+  font-size: 1.5rem;
+  color: gray;
+}
 @media (max-width: 600px) {
   .self-tab-outer-outer {
     margin-top: 100px;

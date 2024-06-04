@@ -46,6 +46,11 @@ export default function BookShelf() {
                 </div>
               );
             })}
+            {localData.length === 0 && (
+              <div className="shelf-outer">
+                <p className="shelf-text">No Books in Shelf</p>
+              </div>
+            )}
           </div>
         </div>
       </>
